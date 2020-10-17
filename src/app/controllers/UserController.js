@@ -3,19 +3,15 @@ import checkPassword from '../../utils/checkPassword';
 
 class UserController {
   async store(req, res) {
-    try {
-      const { email } = req.body;
-      const userExists = await User.findOne({ email });
+    const { email } = req.body;
+    const userExists = await User.findOne({ email });
 
-      if (userExists) {
-        return res.status(400).json({ error: 'Esse email já existe' });
-      }
-      const user = await User.create(req.body);
-      user.password = undefined;
-      return res.json(user);
-    } catch (err) {
-      return res.status(400).json(err);
+    if (userExists) {
+      return res.status(400).json({ error: 'Esse email já existe' });
     }
+    const user = await User.create(req.body);
+    user.password = undefined;
+    return res.json(user);
   }
 
   async delete(req, res) {
