@@ -20,8 +20,8 @@ routes.delete('/user', UserController.delete);
 
 routes.post('/task', TaskController.store);
 routes.get('/task', TaskController.index);
-routes.get('/task/taskId', TaskController.show);
-routes.put('/task/taskId', TaskController.update);
-routes.delete('/task/taskId', TaskController.delete);
+routes.get('/task/:taskId', TaskController.show);
+routes.put('/task/:taskId', TaskController.update);
+routes.delete('/task/:taskId', TaskController.delete);
 
 export default routes;
