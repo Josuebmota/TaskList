@@ -50,7 +50,7 @@ yarn
 # Baixar o container docker
 docker pull mongo
 
-# Baixar o container docker
+# rodar o container
 docker run -d -p 27017:27017 -name tasklist  -e MONGODB_PASS="mongo" mongo
 
 # Start o projeto
