@@ -31,7 +31,7 @@
 
 ## 📁 Modelo de entidade e relacionamento
 <p align = "center">
-<img src ="https://user-images.githubusercontent.com/34459397/96355776-fe852700-10bb-11eb-9880-42125cd73874.png"/>
+<img src ="https://user-images.githubusercontent.com/34459397/96367897-e5659000-1126-11eb-91e4-7c4b5afd8174.png"/>
 </p>
 
 ## 🚀 Execução
