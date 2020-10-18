@@ -64,7 +64,7 @@ Afim de facilitar os testes das rotas, efetue o download do arquivo abaixo:
 
 Sinta-se a vontade de registrar um novo problema, com um respectivo título e descrição no repositório do [TaskList](https://github.com/Josuebmota/TaskList/issues). Se encontrar a solução, avaliarei seu Pull Request.
 
-#### 👨‍💻 [](<[https://github.com/Josuebmota/TaskList](https://github.com/Josuebmota/TaskList)#autor>)Autores
+#### 👨‍💻 [](<[https://github.com/Josuebmota/TaskList](https://github.com/Josuebmota/TaskList)#autor>)Autor
 
 Criado por [**Josué Batista Mota** ](https://github.com/Josuebmota), <br>esse projeto está sobre [MIT license](./LICENSE) 📃.
 
